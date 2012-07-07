@@ -38,7 +38,6 @@ public class Note {
 
 	private int getPitchIndex(String pitch) {
 		for (int i=0; i <= PITCHES.length; i++) {
-			Log.d("IntervalPro", "blah " + pitch + " " + PITCHES[i]);
 			if (pitch.equals(PITCHES[i])) {
 				return i;
 			}			
